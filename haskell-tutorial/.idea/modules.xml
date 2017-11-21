@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/wc.iml" filepath="$PROJECT_DIR$/wc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/haskell-tutorial.iml" filepath="$PROJECT_DIR$/haskell-tutorial.iml" />
     </modules>
   </component>
 </project>

@@ -1,8 +1,8 @@
-name:                wc
+name:                haskell-tutorial
 version:             0.1.0.0
 -- synopsis:
 -- description:
-homepage:            https://github.com/hengxin/wc#readme
+homepage:            https://github.com/hengxin/haskell-tutorial#readme
 license:             BSD3
 license-file:        LICENSE
 author:              hengxin
@@ -19,23 +19,23 @@ library
   build-depends:       base >= 4.7 && < 5
   default-language:    Haskell2010
 
-executable wc-exe
+executable haskell-tutorial-exe
   hs-source-dirs:      app
   main-is:             Main.hs
   ghc-options:         -threaded -rtsopts -with-rtsopts=-N
   build-depends:       base
-                     , wc
+                     , haskell-tutorial
   default-language:    Haskell2010
 
-test-suite wc-test
+test-suite haskell-tutorial-test
   type:                exitcode-stdio-1.0
   hs-source-dirs:      test
   main-is:             Spec.hs
   build-depends:       base
-                     , wc
+                     , haskell-tutorial
   ghc-options:         -threaded -rtsopts -with-rtsopts=-N
   default-language:    Haskell2010
 
 source-repository head
   type:     git
-  location: https://github.com/hengxin/wc
+  location: https://github.com/hengxin/haskell-tutorial
