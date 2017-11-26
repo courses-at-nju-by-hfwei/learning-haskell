@@ -28,4 +28,9 @@ data BillingInfo = CreditCard CardNumber CardHolder Address
                 | Invoice CustomerID
                   deriving Show
 
-
+-- Customer in Record Syntax
+data Customer = Customer {
+  customerID :: CustomerID,
+  customerName :: String,
+  customerAddress :: Address
+} deriving Show
