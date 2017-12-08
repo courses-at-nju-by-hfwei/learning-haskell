@@ -1,4 +1,4 @@
-module InteractWith where
+-- module InteractWith where (WARNING: no such a line!!!)
 
 import System.Environment (getArgs)
 
