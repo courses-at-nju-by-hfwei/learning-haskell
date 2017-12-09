@@ -1,0 +1,2 @@
+input txt file for File IO test
+anther line
